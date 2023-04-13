@@ -1,1 +1,1 @@
-# ruby_training
+Ruby研修用のリポジトリ
