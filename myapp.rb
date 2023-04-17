@@ -2,7 +2,7 @@ require 'sinatra'
 require 'sinatra/reloader'
  
 get '/' do
-    "<h1>Hello World!</h1><p>asdfghjk</p><a href='/test'>test</a> <a href='/new'>new</a>"
+    "<h1>Hello World!</h1><p>asdfghjk</p><a href='/test'>test</a> <a href='/new'>new</a> <a href='/conflict1'>conflict1</a>"
 end
 
 get '/test' do
@@ -11,4 +11,8 @@ end
 
 get '/new' do
     "<h2>Hello New World!</h2><p>asdfghjk</p>"
+end
+
+get '/conflict1' do
+    "<h2>Hello World Conflict1!</h2><p>asdfghjk</p>"
 end
